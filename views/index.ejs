@@ -1,14 +1,16 @@
 <%- include('./partials/head') %>
 
-    <section class="search">
-        <label class="labelsearch" for="search">Search blogs</label>
-        <input type="text" id="search" class="searchbar">
+    <div id="searchResults"></div>
+
+    <div class="search">
+        <label for="searchInput" class="labelsearch">Search blogs</label>
+        <input type="text" id="searchInput" class="searchbar" placeholder="....">
         <img class="searchimg" src="assets/search.svg" alt="Magnifying glass image">
-    </section>
+    </div>
 
     <section class="yellowsearch"></section>
 
-    <p class="psearch">34 Blogs by 7 Authors</p>
+    <div id="blogPosts">34 Blogs by 7 Authors</div>
 
     <p class="pdate">Date</p>
     <section class="dates">
@@ -35,7 +37,7 @@
             <option value="author3">Author3</option>
         </select>
     </section>
-
+    <!-- datalist/form/fieldset/buttons hover kleur -->
     <section class="yellowauthor"></section>
 
     <section class="blogtitle">
