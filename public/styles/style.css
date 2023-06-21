@@ -68,13 +68,6 @@ main {
     margin-bottom: 0.5rem;
 }
 
-.searchbar {
-    border-radius: 5px;
-    border: solid 1px var(--blue);
-    width: 300px;
-    padding: 0.5rem;
-}
-
 input,
 select {
     background: transparent;
@@ -109,6 +102,8 @@ select:focus {
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-bottom: 1rem;
+
+    max-width: 22rem;
 }
 
 strong {
@@ -270,6 +265,10 @@ h2 {
     margin-top: 2.5rem;
 }
 
+.pfooter {
+    display: none;
+}
+
 button {
     transform: scale(1);
     transition: .15s;
@@ -289,4 +288,289 @@ button:hover {
 @media only screen and (min-width: 1200px) {
 
     /* Your larger desktop-specific styles go here */
+    .header {
+        padding-bottom: 5rem;
+        background-color: var(--yellow);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 25%;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+
+    .language {
+        color: var(--blue);
+        margin-right: 4.5rem;
+        font-size: 2rem;
+    }
+
+    h1 {
+        color: var(--blue);
+        font-size: 7rem;
+        font-weight: bold;
+
+        margin-top: -4rem;
+        margin-right: 4rem;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    main {
+        margin-bottom: 20rem;
+    }
+
+    #searchResults {
+        margin-left: 4rem;
+        margin-bottom: -1rem;
+        margin-top: 1rem;
+    }
+
+    .search {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        margin-top: 3rem;
+        margin-left: 4rem;
+    }
+
+    .labelsearch {
+        color: var(--blue);
+        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+    }
+
+    input,
+    select {
+        background: transparent;
+    }
+
+    input:focus,
+    select:focus {
+        background: white;
+    }
+
+    .searchbar {
+        border-radius: 5px;
+        border: solid 1px var(--blue);
+
+        width: 70%;
+        padding: 1.5rem;
+    }
+
+    .searchimg {
+        margin-left: -2rem;
+    }
+
+    .yellowsearch {
+        background-color: var(--yellow);
+        padding: 2rem;
+        margin-top: -1rem;
+        margin-left: 2rem;
+        width: 85%;
+    }
+
+    #blogPosts {
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+
+        font-size: 2rem;
+    }
+
+    strong {
+        color: var(--blue);
+    }
+
+    .pdate {
+        color: black;
+        margin-top: 2rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+
+        font-size: 2.5rem;
+    }
+
+    .dates {
+        display: flex;
+        margin-left: 0.6rem;
+    }
+
+    .date {}
+
+    .labeldate {
+        color: gray;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .datebar {
+        border-radius: 5px;
+        border: solid 1px var(--blue);
+
+        width: auto;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .yellowdate {
+        background-color: var(--yellow);
+        padding: 1rem;
+        margin-top: -1rem;
+        margin-left: 2.2rem;
+        width: 37%;
+    }
+
+    .yellowdate2 {
+        background-color: var(--yellow);
+        padding: 1rem;
+        margin-top: -2rem;
+        margin-left: 14.25rem;
+        width: 37%;
+    }
+
+    .author {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        margin-top: 1rem;
+        margin-left: 4rem;
+
+        font-size: 2.5rem;
+    }
+
+    .labelauthor {
+        margin-bottom: 0.5rem;
+    }
+
+    .authorbar {
+        border-radius: 5px;
+        border: solid 1px var(--blue);
+
+        width: 90%;
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .yellowauthor {
+        background-color: var(--yellow);
+        padding: 1rem;
+        margin-top: -1rem;
+        margin-left: 2rem;
+        width: 85%;
+    }
+
+    .blogtitle img {
+        width: 2%;
+    }
+
+    .blogtitle {
+        display: flex;
+
+        margin-top: 2rem;
+        margin-left: 4rem;
+
+        font-size: 2.5rem;
+    }
+
+    .blog {
+        margin-top: 1rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    .pblog {
+        color: var(--blue);
+        font-weight: bold;
+    }
+
+    .yellowblog {
+        background-color: var(--yellow);
+        padding: 1rem;
+        margin-top: -2.5rem;
+        margin-left: 2rem;
+        width: 85%;
+    }
+
+    .blogbutton {
+        background-color: var(--blue);
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+
+        font-size: 2rem;
+        font-weight: bold;
+
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 9.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .yellowbutton {
+        background-color: var(--yellow);
+        padding: 1rem;
+        margin-top: -1rem;
+        margin-left: 9rem;
+        width: 32%;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+
+        color: var(--blue);
+        margin-left: 0rem;
+        margin-bottom: -1.5rem;
+        font-size: 3rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerbutton {
+        background-color: var(--blue);
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+
+        font-size: 2rem;
+        font-weight: bold;
+
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 2.5rem;
+    }
+
+    .pfooter {
+        display: flex;
+    }
+
+    button {
+        transform: scale(1);
+        transition: .15s;
+    }
+
+    button:hover {
+        transform: scale(1.25);
+        transition: .15s;
+    }
+
+    .yellowfooter {
+        padding-bottom: 15rem;
+        margin-top: -6rem;
+        background-color: var(--yellow);
+    }
 }
