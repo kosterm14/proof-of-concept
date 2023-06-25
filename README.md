@@ -1,5 +1,5 @@
 # Blogpagina De Voorhoede
-![image](https://github.com/kosterm14/proof-of-concept/assets/61830362/8a33e008-8a8c-4ed7-8e78-7eb23941f08d)
+<img src= "https://github.com/kosterm14/proof-of-concept/assets/61830362/8a33e008-8a8c-4ed7-8e78-7eb23941f08d" width= 50% height= 50%>
 
 
 ## Inhoudsopgave
