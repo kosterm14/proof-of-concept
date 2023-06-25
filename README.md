@@ -1,33 +1,51 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Blogpagina De Voorhoede
+![image](https://github.com/kosterm14/proof-of-concept/assets/61830362/8a33e008-8a8c-4ed7-8e78-7eb23941f08d)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
-  * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
+  * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+De opdracht is een data driven online concept voor een opdrachtgever bouwen. Mijn opdrachtgever in dit geval is [De Voorhoede
+](https://www.voorhoede.nl/nl/).
+
+De opdracht die we gekregen hebben van de opdrachtgever is het maken van een webpagina voor de Voorhoede website met daarin een zoekfunctionaliteit. Dit, doormiddel van GraphQL.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+De pagina is gemaakt met een API database. We hebben tot nu toe alleen met REST API's gewerkt maar ik heb voor deze opdracht GraphQL gebruikt. GraphQL is een querytaal waarmee over meerdere API's (application programming interfaces) tegelijk gezocht en gewerkt kan worden. Deze taal zorgt ervoor dat clients precies de gegevens krijgen waar ze om vragen en niet meer dan dat.
+
+Gebruikte talen: 
+- HTML
+- CSS
+- JS
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+Npm install + npm install express.
+
+## Gebruik
+Open in visual studio de terminal met de toetscombinatie
+
+![image](https://user-images.githubusercontent.com/61830362/225873302-20945f18-88e9-4598-a579-a88c37732492.png)
+
+Type "npm start" om de localhost:8000 link te krijgen om je website te bekijken.
 
 ## Bronnen
+https://chat.openai.com/
+https://studio.apollographql.com/sandbox/explorer
+https://www.datocms.com/docs/content-delivery-api
+https://graphql.org/learn/
+
+https://www.youtube.com/watch?v=VYsVOamdB0g&ab_channel=KevinPowell
+
+https://www.youtube.com/watch?v=gBzsE0oieio&ab_channel=KevinPowell
 
 ## Licentie
-
 This project is licensed under the terms of the [MIT license](./LICENSE).
