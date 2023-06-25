@@ -39,13 +39,12 @@ Type "npm start" om de localhost:8000 link te krijgen om je website te bekijken.
 
 ## Bronnen
 https://chat.openai.com/
+
 https://studio.apollographql.com/sandbox/explorer
+
 https://www.datocms.com/docs/content-delivery-api
+
 https://graphql.org/learn/
-
-https://www.youtube.com/watch?v=VYsVOamdB0g&ab_channel=KevinPowell
-
-https://www.youtube.com/watch?v=gBzsE0oieio&ab_channel=KevinPowell
 
 ## Licentie
 This project is licensed under the terms of the [MIT license](./LICENSE).
